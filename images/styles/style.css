@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .banner {
     background-image: url(../Banner\ Image.png);
     height: 600px;
@@ -11,7 +16,7 @@
     margin-bottom: 120px;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .banner h3 {
@@ -69,8 +74,8 @@
 }
 
 .party-section {
-    background-image: linear-gradient(to right,rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)),url(../Vectorrr.png);
-    
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../Vectorrr.png);
+
     background-repeat: no-repeat;
     height: 600px;
     width: 1320px;
@@ -80,9 +85,9 @@
     padding: 0 126px;
     background-size: cover;
     margin: auto;
-    
-    
-    
+
+
+
 }
 
 .party-section div h3 {
@@ -104,4 +109,306 @@
     color: #ffffff;
     font-size: 20px;
     font-weight: 700;
+}
+
+.date-time {
+    text-align: center;
+    margin-top: 120px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.10), rgba(255, 0, 0, 0));
+    margin: auto;
+    height: 600px;
+    width: 1320px;
+    padding-top: 100px;
+    margin-top: 120px;
+}
+
+.date-time p {
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+}
+
+.date-time p span {
+    color: #ff0000;
+}
+
+.date-time button {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    padding: 16px 32px;
+    background-color: #ff0000;
+    border-radius: 8px;
+    border-color: #ff0000;
+}
+
+/* pic er border baki ace */
+.cooming-soon {
+    display: flex;
+    gap: 70px;
+    height: 600px;
+    width: 1320px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cooming-soon .best-offer h3 {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.cooming-soon .best-offer h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+
+.cooming-soon .best-offer p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.cooming-soon .pic {
+    height: 465px;
+    width: 465px;
+    border: 15px solid red;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    padding: 20px;
+
+}
+
+.comming-soon .pic img {
+    height: 365px;
+    width: 365px;
+    border: 15px solid red;
+    border-radius: 100%;
+
+
+}
+
+.cooming-soon .year h2 {
+    color: #ff0000;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.cooming-soon .year p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    height: 96px;
+    width: 276px;
+    font-family: 'Inter', sans-serif;
+}
+
+.cooming-soon .year img {
+    height: 140px;
+    width: 140px;
+    margin-top: 20px;
+}
+
+.discount {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.discount h4 {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+.discount h2 {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+.discount h2 span {
+    color: #ff0000;
+
+}
+
+.discount p {
+    color: #07021199;
+
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    margin-top: 28px;
+}
+
+.awesome {
+    width: 1320px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.awesome h2 {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.awesome h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.awesome p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 32px;
+    font-family: 'Inter', sans-serif;
+}
+
+.awesome .awasome-pic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.email {
+    width: 1320px;
+    background-color: #ff00000d;
+    border-radius: 16px;
+    margin: auto;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.email img {
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+.email h3 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    font-family: 'Merriweather', serif;
+}
+
+.email p {
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.email .form-chart {
+    margin-top: 48px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.email .form-chart input {
+    background-color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 477px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.email .form-chart button {
+
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 56px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    background-color: #070211;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+footer .footer-container{
+    width: 1320px;
+    margin: auto;
+
+}
+
+footer .foot-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    border-bottom: 0.01px solid rgba(255, 255, 255, 0.637);
+}
+
+footer .foot-part .address h3 {
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+footer .foot-part .contact{
+    margin-right: 20px;
+    padding-right: 70px;
+    
+}
+
+footer .foot-part .contact h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer .footer-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border-bottom: 0.01px solid rgba(255, 255, 255, 0.637);
+    padding-bottom: 48px;
+    gap: 24px;
+}
+
+footer .last-part{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+footer .last-part h3 {
+    font-size: 24px;
+    font-weight: 500;
 }
