@@ -4,7 +4,8 @@
 }
 
 .banner {
-    background-image: url(../Banner\ Image.png);
+    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../Banner\ Image.png);
+    /* background-image: url(../Banner\ Image.png),linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)); */
     height: 600px;
     width: 1320px;
     color: white;
@@ -16,6 +17,7 @@
     margin-bottom: 120px;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px;
 
 }
 
@@ -82,9 +84,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 126px;
+    padding: 0;
     background-size: cover;
     margin: auto;
+    border-radius: 20px;
 
 
 
@@ -103,12 +106,19 @@
     font-size: 18px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    padding: 12px 0px;
+    line-height: 1.5;
 }
 
-.party-section div h4 {
-    color: #ffffff;
+.party-section div button {
+     color: #ffffff;
     font-size: 20px;
     font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    
 }
 
 .date-time {
@@ -120,6 +130,7 @@
     width: 1320px;
     padding-top: 100px;
     margin-top: 120px;
+    border-radius: 20px;
 }
 
 .date-time p {
@@ -127,6 +138,7 @@
     font-weight: 600;
     color: #070211;
     font-family: 'Inter', sans-serif;
+    padding-bottom: 15px;
 }
 
 .date-time p span {
@@ -139,9 +151,11 @@
     font-weight: 700;
     font-family: 'Inter', sans-serif;
     padding: 16px 32px;
+    margin-top: 50px;
     background-color: #ff0000;
     border-radius: 8px;
     border-color: #ff0000;
+
 }
 
 .cooming-soon {
@@ -152,13 +166,16 @@
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
+
 
 .cooming-soon .best-offer h3 {
     color: #ff0000;
     font-size: 24px;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
+    padding-bottom: 12px;
 
 }
 
@@ -167,6 +184,7 @@
     font-size: 48px;
     font-weight: 900;
     font-family: 'Merriweather', serif;
+    padding-bottom: 20px;
 }
 
 .cooming-soon .best-offer p {
@@ -202,6 +220,7 @@
     font-weight: 700;
     margin-bottom: 0;
     font-family: 'Inter', sans-serif;
+    padding-bottom: 20px;
 }
 
 .cooming-soon .year p {
@@ -222,6 +241,9 @@
 .discount {
     text-align: center;
     margin-top: 120px;
+    width: 1320px;
+    margin: auto;
+    
 }
 
 .discount h4 {
@@ -236,6 +258,7 @@
     font-weight: 900;
     font-family: 'Merriweather', serif;
     margin: 0;
+    padding: 12px 0;
 }
 
 .discount h2 span {
@@ -251,6 +274,36 @@
     margin: auto;
     font-family: 'Inter', sans-serif;
     margin-top: 28px;
+}
+
+.discount .girl{
+    display: flex;
+    justify-content: end;
+
+}
+
+.discount .girl .red-dress{
+    position: relative;
+    margin-top: 65px;
+}
+
+.discount .girl .red-dress .offer{
+    margin-top: -350px;
+    margin-left: -150px;
+    position: absolute;
+}
+
+.discount .fire-flam{
+    position: relative;
+    margin-top: -2px;
+    
+}
+
+.discount .fire-flam .gift{
+    position: absolute;
+    bottom: 0px;
+    
+
 }
 
 .awesome {
@@ -371,12 +424,13 @@ footer .foot-part {
     margin-top: 120px;
     padding-top: 120px;
     padding-bottom: 50px;
-    border-bottom: 0.0001px solid rgba(255, 255, 255, 0.637);
+    border-bottom: 0.0001px solid rgba(85, 77, 77, 0.3);
 }
 
 footer .foot-part .address h3 {
     font-size: 24px;
     font-weight: 500;
+    padding-bottom: 12px;
 
 }
 
@@ -390,13 +444,23 @@ footer .foot-part .contact h3 {
     font-size: 24px;
     font-weight: 500;
 }
+footer .footer-container .foot-part .contact .number{
+    display: flex;
+    gap: 5px;
+}
+
+footer .footer-container .foot-part .contact .link{
+    display: flex;
+    gap: 5px;
+    padding-top: 12px;
+}
 
 footer .footer-image {
     display: flex;
     justify-content: center;
     margin-top: 48px;
     margin-bottom: 48px;
-    border-bottom: 0.0001px solid rgba(255, 255, 255, 0.637);
+    border-bottom: 0.0001px solid rgba(85, 77, 77, 0.3);
     padding-bottom: 48px;
     gap: 24px;
 }
