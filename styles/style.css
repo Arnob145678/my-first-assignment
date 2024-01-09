@@ -4,8 +4,8 @@
 }
 
 .banner {
-    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../Banner\ Image.png);
-    /* background-image: url(../Banner\ Image.png),linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)); */
+    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
+    
     height: 600px;
     width: 1320px;
     color: white;
@@ -76,7 +76,7 @@
 }
 
 .party-section {
-    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../Vectorrr.png);
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
 
     background-repeat: no-repeat;
     height: 600px;
